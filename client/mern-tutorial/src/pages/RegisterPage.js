@@ -23,7 +23,7 @@ export default function RegisterPage() {
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.message || 'Registration has  failed');
+        throw new Error(data.message || 'Registration   failed');
       }
 
       setSuccess('Registration successful');
